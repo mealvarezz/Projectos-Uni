@@ -1,6 +1,6 @@
 //Un objeto Automóvil con las propiedades marca, modelo y año. Construirlo mediante una función constructora y utilizar la consola para mostrar la información almacenada.
 
-class automovil {
+class Automovil {
     constructor(marca, modelo, anio){
         this.marca = marca;
         this.modelo = modelo;
@@ -8,8 +8,8 @@ class automovil {
     }
 }
 
-var miAuto = new automovil("Ford", "F-100", 1978);
+var automovil = new Automovil("Ford", "F-100", 1978);
 
-console.log(miAuto.marca);
-console.log(miAuto.modelo);
-console.log(miAuto.anio);
+console.log(automovil.marca);
+console.log(automovil.modelo);
+console.log(automovil.anio);
