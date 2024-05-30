@@ -2,7 +2,7 @@
 
 var persona = {
     nombre: "Maria",
-    edad: 43,
+    edad: 26,
     ciudad: "Rawson"
 }
 
